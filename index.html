@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorveteria
+        
+    </title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="./videos/sorvete.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a>
+                <img src="./imagens/logo.png" alt="logo-cafeteria">
+            </a>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+
+    <div>
+        <section class="caixa-principal">
+            <div>
+                <h3>O melhor sorvete da região</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nihil soluta rerum eveniet quos
+                    modi, vel sapiente explicabo reiciendis nisi itaque eaque maxime quibusdam sint! Enim itaque
+                    excepturi tempore quos?</p>
+                <a class="botao-link">Pague o seu agora</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="caixa-sobre">
+            <h2 class="titulo"><span>Sobre</span> Nós</h2>
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="./imagens/sorvete.jpg" alt="imagem-sobre">
+                </div>
+
+                <div class="sobre-texto">
+                    <h3>O que faz nosso sorvete especial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quam nisi, doloribus assumenda
+                        tempora accusamus! Culpa in reprehenderit voluptates, odio fuga cum quis non, veritatis enim
+                        quas, voluptatem quos quasi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere incidunt libero doloribus
+                        voluptatum a repellendus, in, quo sit maxime illum, harum debitis. Deleniti nemo cum illum
+                        dolorem laborum qui perferendis?</p>
+                    <a class="botao-link">Saiba Mais</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso </span>Endereço </h3>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118538.5344403057!2d-49.691834864771856!3d-21.80620792548961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1741993859768!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="./scripts.js"></script>
+        
+    
+
+</body>
+
+</html>
